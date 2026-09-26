@@ -30,6 +30,7 @@ htmlcov/
 
 # OpenVox runtime data (personal, not for version control)
 openvox/data/*.txt
+openvox/data/*.json
 !openvox/data/.gitkeep
 openvox/logs/*.log
 !openvox/logs/.gitkeep

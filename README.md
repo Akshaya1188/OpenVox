@@ -21,7 +21,7 @@ of the code.
 - 📝 **Notes** — take a note by voice, read them back later
 - ⏰ **Reminders** — "remind me in 5 minutes to take a break"
 - 💻 **System info** — OS, hostname, free disk space
-- 🚀 **Open applications** — launches a whitelisted set of apps
+- 🚀 **Open applications** — launches any installed app by name
 - 🙋 **Personalized profile** — asks your name once, confirms it, and
   lets you correct it if misheard
 - 🧩 **Fully configurable** — name, language, voice, microphone, and
@@ -288,11 +288,6 @@ Released under the [MIT License](LICENSE).
 
 ## Roadmap
 
-Ideas for future contributions:
-
-- [ ] Offline speech recognition option (e.g. Vosk) for use without
-      internet access
-- [ ] Pluggable command modules loaded from a `plugins/` directory
-- [ ] Persistent, queryable reminders (currently in-memory only)
-- [ ] Optional wake-word detection instead of a continuous listen loop
-- [ ] Configurable per-user profiles saved to disk
+See [ROADMAP.md](ROADMAP.md) for the current state of the project,
+what's planned next, and notes for picking development back up after
+a break.
